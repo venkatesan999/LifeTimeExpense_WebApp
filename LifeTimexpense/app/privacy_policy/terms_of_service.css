@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  hr {
+    border: none; /* Removes the default border */
+    border-top: 1px solid #cccccc8a; /* Sets the top border color and style */
+    margin-top: -10px; /* Top margin */
+    margin-bottom: 15px; /* Bottom margin */
+  }
+  
+  a {
+    color: #0A8E6F;
+    text-decoration: none;
+  }
+  
+  p, li {
+    color: #000000b0;
+  }
+  
+  h1, h3 {
+    color: #2B3856;
+    margin-top: 0; /* Ensure headings start at the top of their container */
+  }
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Split Containers with CSS Grid</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <hr>
+      <div class="content">
+        <div class="circle">
+          <img src="drawable/bill_list.png" alt="Bill List Image">
+        </div>
+        <div class="read_must">
+          <p>Read Must</p>
+        </div>
+      </div>
+      <div class="monitor">
+        <p><span>Easy</span> way to monitor your expense</p>
+      </div>
+      <div class="cards">
+        <div class="spend">
+          <div class="spend_card">
+            <img src="drawable/spend.png" alt="Spend Image" class="spend_img">
+            <div class="spend_txt">
+              <p>All your spending, borrowing, lending, and bill-related information consolidated in one place.</p>
+            </div>
+          </div>
+        </div>
+        <div class="borrow">
+          <div class="borrow_card">
+            <img src="drawable/borrow.png" alt="Borrow Image" class="borrow_img">
+            <div class="borrow_txt">
+              <p>You can easily manage your bills after adding expenses.</p>
+            </div>
+          </div>
+        </div>
+        <div class="bill">
+          <div class="bill_card">
+            <img src="drawable/bill.png" alt="Bill Image" class="bill_img">
+            <div class="bill_txt">
+              <p>Generate your expense bills effortlessly with our app. Simply enter the expense details, and our app will create a professional bill for you. Print or share the bill as needed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div id="playstore">
+        <!-- Wrapped the Lottie animation inside an anchor tag -->
+        <a id="playstoreLink" href="https://play.google.com/store/apps">
+          <!-- Lottie animation will be displayed here -->
+        </a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="divider"></div>
+      <div class="right_txt1">
+        <p id="typewriter-text">The easiest way to store your expense with the world from today.</p>
+      </div>
+      <div class="overlay">
+        <img src="drawable/play_store.png" alt="Play Store Image">
+        <div class="right_now">
+          <p>{ Safe your future by managing your expense right now }</p>
+        </div>
+        <div class="install">
+          <p>Click here to install</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="terms_conditions">
+    <p>By continuing, you agree to <a href="privacy_policy/terms_of_service.html" class="terms_and_conditions">Terms of Service</a> and <a href="privacy_policy/privacy_policy.html" class="privacy_policy">Privacy Policy</a>.</p>
+  </div>
+  <footer class="footer">
+    <div class="support">
+      <p class="contact">Contact: sharefeels@lifetimexpense.com</p>
+      <p class="website">Website: lifetimexpense.com</p>
+      <p class="linkedin">Linkedin: www.lifetimexpense.com</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.7/lottie.min.js"></script>
+  <script src="index.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
